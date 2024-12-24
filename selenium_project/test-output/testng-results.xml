@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-24T17:10:15 IST" name="Default suite" finished-at="2024-12-24T17:11:19 IST" duration-ms="63991">
+    <groups>
+    </groups>
+    <test started-at="2024-12-24T17:10:15 IST" name="Default test" finished-at="2024-12-24T17:11:19 IST" duration-ms="63991">
+      <class name="org19.annotaionsBasics.OrangeHRMBAMethod">
+        <test-method is-config="true" signature="login()[pri:0, instance:org19.annotaionsBasics.OrangeHRMBAMethod@1af2d44a]" started-at="2024-12-24T17:10:15 IST" name="login" finished-at="2024-12-24T17:10:25 IST" duration-ms="10305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testPIMCreation()[pri:1, instance:org19.annotaionsBasics.OrangeHRMBAMethod@1af2d44a]" started-at="2024-12-24T17:10:25 IST" name="testPIMCreation" finished-at="2024-12-24T17:10:32 IST" duration-ms="6890" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPIMCreation -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:org19.annotaionsBasics.OrangeHRMBAMethod@1af2d44a]" started-at="2024-12-24T17:10:32 IST" name="logOut" finished-at="2024-12-24T17:10:34 IST" duration-ms="1672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org19.annotaionsBasics.OrangeHRMBAMethod@1af2d44a]" started-at="2024-12-24T17:10:34 IST" name="login" finished-at="2024-12-24T17:10:43 IST" duration-ms="9424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testPIMUpdate()[pri:2, instance:org19.annotaionsBasics.OrangeHRMBAMethod@1af2d44a]" started-at="2024-12-24T17:10:43 IST" name="testPIMUpdate" finished-at="2024-12-24T17:10:56 IST" duration-ms="12584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPIMUpdate -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:org19.annotaionsBasics.OrangeHRMBAMethod@1af2d44a]" started-at="2024-12-24T17:10:56 IST" name="logOut" finished-at="2024-12-24T17:10:59 IST" duration-ms="2767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method is-config="true" signature="login()[pri:0, instance:org19.annotaionsBasics.OrangeHRMBAMethod@1af2d44a]" started-at="2024-12-24T17:10:59 IST" name="login" finished-at="2024-12-24T17:11:07 IST" duration-ms="8221" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="testPIMDelete()[pri:3, instance:org19.annotaionsBasics.OrangeHRMBAMethod@1af2d44a]" started-at="2024-12-24T17:11:07 IST" name="testPIMDelete" finished-at="2024-12-24T17:11:17 IST" duration-ms="9748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPIMDelete -->
+        <test-method is-config="true" signature="logOut()[pri:0, instance:org19.annotaionsBasics.OrangeHRMBAMethod@1af2d44a]" started-at="2024-12-24T17:11:17 IST" name="logOut" finished-at="2024-12-24T17:11:19 IST" duration-ms="2291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- org19.annotaionsBasics.OrangeHRMBAMethod -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
