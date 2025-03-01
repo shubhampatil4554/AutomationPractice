@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<groups>
+			<run>
+				<exclude name="Smoke Test" />
+				<include name="Regression" />
+				<exclude name="Sanity Test" />
+				<include name="Location" />
+				<exclude name="Department" />
+				<include name="employee" />
+			</run>
+		</groups>
+		<classes>
+			<class name="org20.advanceTestNG.GroupExample2" />
+			<class name="org20.advanceTestNG.GroupExample1" />
+			<class name="org20.advanceTestNG.IncludeAndExclude" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
