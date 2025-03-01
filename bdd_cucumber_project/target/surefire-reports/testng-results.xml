@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-12T17:18:10 IST" name="Suite" finished-at="2025-01-12T17:18:39 IST" duration-ms="29434">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org03.runner.TestRunner@26e356f0]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-01-12T17:18:10 IST" name="TestTricentis" finished-at="2025-01-12T17:18:39 IST" duration-ms="29434">
+      <class name="org03.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:org03.runner.TestRunner@26e356f0]" started-at="2025-01-12T17:18:10 IST" name="setUpClass" finished-at="2025-01-12T17:18:11 IST" duration-ms="898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org03.runner.TestRunner@26e356f0]" started-at="2025-01-12T17:18:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-12T17:18:22 IST" duration-ms="10820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Searching Selenium Interview Question in google"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Testing Google search functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org03.runner.TestRunner@26e356f0]" started-at="2025-01-12T17:18:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-12T17:18:29 IST" duration-ms="7753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Searching Manual Interview Question in google"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Testing Google search functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org03.runner.TestRunner@26e356f0]" started-at="2025-01-12T17:18:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-12T17:18:37 IST" duration-ms="7918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Searching Api Interview Question in google"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Testing Google search functionality]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org03.runner.TestRunner@26e356f0]" started-at="2025-01-12T17:18:37 IST" name="tearDownClass" finished-at="2025-01-12T17:18:39 IST" duration-ms="1979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org03.runner.TestRunner -->
+    </test> <!-- TestTricentis -->
+  </suite> <!-- Suite -->
+</testng-results>

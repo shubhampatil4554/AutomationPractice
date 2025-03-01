@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="26.153">
+    <testcase classname="Validating order placement in tricentis application" name="_2" time="11.888">
+        <system-out><![CDATA[Given user is on tricentis main page........................................passed
+And click on login link.....................................................passed
+And enter email and password................................................passed
+And click on login button...................................................passed
+Then verify login successful with email profile.............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validating order placement in tricentis application" name="Check product in cart" time="7.823">
+        <system-out><![CDATA[Given user is on product page select the product............................passed
+And click on add to cart....................................................passed
+And click on shipping cart..................................................passed
+Then verify with product name as 14.1-inch Laptop...........................passed
+And click on check boxes....................................................passed
+And click on checkout and continue..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validating order placement in tricentis application" name="Check Payment Options" time="1.552">
+        <system-out><![CDATA[Given check payment option..................................................passed
+And select cod option.......................................................passed
+Then click on continues.....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Validating order placement in tricentis application" name="Place order" time="3.937">
+        <system-out><![CDATA[Given click on confirm......................................................passed
+Then verify successMsg with Your order has been successfully processed! and place order.passed
+And close the browser.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
